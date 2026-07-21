@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import { playSound } from '../utils/audio';
 
 const IMAGES = [
-  { id: 'castle', name: 'Castelo Mágico', url: '/castle.png' },
-  { id: 'forest', name: 'Floresta Encantada', url: '/forest.png' },
-  { id: 'space', name: 'Aventura Espacial', url: '/space.png' },
+  { id: 'castle', name: 'Castelo Mágico', url: './castle.png' },
+  { id: 'forest', name: 'Floresta Encantada', url: './forest.png' },
+  { id: 'space', name: 'Aventura Espacial', url: './space.png' },
 ];
 
 const DIFFICULTIES = [
