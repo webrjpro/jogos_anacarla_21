@@ -17,10 +17,10 @@ export const StartScreen: React.FC = () => {
       <div className="text-yellow-300 animate-spin-slow mb-4">
         <Sparkles size={64} />
       </div>
-      <h1 className="text-5xl sm:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-cyan to-magenta drop-shadow-[0_0_25px_rgba(0,229,255,0.4)] tracking-wide">
+      <h1 className="text-5xl sm:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-cyan to-magenta drop-shadow-[0_0_25px_rgba(0,229,255,0.4)] tracking-wide leading-tight mb-8">
         Mundo dos Desafios 2.0
       </h1>
-      <p className="text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed">
+      <p className="text-lg sm:text-xl text-white/70 max-w-2xl leading-relaxed mb-10">
         Uma aventura épica com 21 fases desafiadoras para exercitar sua mente, expandir seu vocabulário e preparar você para o mundo real!
       </p>
       <button 
